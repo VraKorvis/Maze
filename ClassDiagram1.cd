@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Maze.Common.Container" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAiAAAAYAAAAQAAAAAABAAAgAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\AppEngine\Context\Container.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Maze.EntryPoint">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAACAAAAgAAAAAAAAAAAAAAAAAAAACAQAAAEA=</HashCode>
+      <FileName>Assets\Scripts\AppEngine\EntryPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maze.FSM.BaseState">
+    <Position X="9.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGQAAAABIBAAgQBAEAAAQABUgAAWQQoAJAAACCAEDAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\BaseClasses\BaseState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Maze.FSM.BaseViewState&lt;TView&gt;">
+    <Position X="3.5" Y="6.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAABQAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\BaseClasses\BaseViewState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maze.FSM.StateChangedEventArgs">
+    <Position X="13" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAABAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\BaseClasses\StateMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maze.FSM.StateRaisedEventArgs">
+    <Position X="13" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\BaseClasses\StateMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maze.FSM.StateMachine" BaseTypeListCollapsed="true">
+    <Position X="17.75" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Maze.FSM.StateMachine.TransitionStatusType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\FSM\BaseClasses\StateMachine.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="Maze.FSM.StateMachine.TransitionStatus" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\FSM\BaseClasses\StateMachine.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIxACFQAgAAAAAAAAAABACEAAARABAIAIBABBEAAAAg=</HashCode>
+      <FileName>Assets\Scripts\FSM\BaseClasses\StateMachine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Maze.FSM.Transition&lt;TState&gt;" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAgAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\BaseClasses\Transition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Maze.FSM.TransitionInfo" BaseTypeListCollapsed="true">
+    <Position X="20" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAIAAAAAAAAAABAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\BaseClasses\TransitionInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Maze.FSM.StateInfoExt">
+    <Position X="15.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\BaseClasses\TransitionInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maze.FSM.TransitionLocker" BaseTypeListCollapsed="true">
+    <Position X="13" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAABAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\BaseClasses\TransitionLocker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Maze.FSM.StateEvent">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAEAACAAAQAAAAEAAIAAAAAAAABAAg=</HashCode>
+      <FileName>Assets\Scripts\FSM\Events\StateEvents.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Maze.FSM.StateEvent&lt;TData&gt;">
+    <Position X="9" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\Events\StateEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maze.FSM.MapLevelState">
+    <Position X="0.5" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAQAAAACAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\States\MapLevelsState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maze.FSM.SettingsState">
+    <Position X="0.5" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\States\SettingsState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maze.FSM.TransitionLockerByScene" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACACAAgAAAABAAAEAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\Transitions\Lockers\TransitionLockerByScene.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Maze.FSM.States.CachePreparingState">
+    <Position X="6.75" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\States\CachePreparingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maze.FSM.States.CommonState" Collapsed="true">
+    <Position X="3.5" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAQAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\States\CommonState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Maze.Common.IContainer">
+    <Position X="2.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAiAAAAIAAAAQAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\AppEngine\Context\IContainer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Maze.FSM.IState">
+    <Position X="2.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGQAAAAAABAAgQAAAAAAQABAAAAUAQgAIAAACAAACAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\BaseClasses\IState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Maze.FSM.IStateMachine" Collapsed="true">
+    <Position X="10" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAABACEAAARAAAAAIAABBAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\BaseClasses\StateMachine.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Maze.FSM.ITransition&lt;TState&gt;">
+    <Position X="6.25" Y="9.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAgAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\BaseClasses\Transition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Maze.FSM.ITransitionInfo">
+    <Position X="4.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAIAAAAAAAAAABAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\BaseClasses\TransitionInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Maze.FSM.ITransitionLocker">
+    <Position X="6.25" Y="11.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAABAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\BaseClasses\TransitionLocker.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Maze.FSM.IStateEventHandler" Collapsed="true">
+    <Position X="10" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\Events\StateEvents.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Maze.FSM.IStateEvent">
+    <Position X="4.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAQAAAAEAAIAAAAAAAABAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\Events\StateEvents.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Maze.FSM.ITransitionChekpointController" Collapsed="true">
+    <Position X="1.5" Y="13.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\Transitions\Checkpoint\ITransitionChekpointController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Maze.FSM.StateChangeReason" Collapsed="true">
+    <Position X="3.25" Y="14.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAACAAAAAABAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\BaseClasses\TransitionInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

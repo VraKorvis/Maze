@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: tiles_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 88da1dd642597ac48a30afddeefb84eb, type: 3}
+    - {fileID: 102900000, guid: dd675bb706ad76e48999031951532ae0, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 0e75fa2136a1f604e83df6ee5c4c788c, type: 3}
+  - {fileID: 21300000, guid: 05752741b134ec0418d86f55c47da978, type: 3}
+  - {fileID: 21300000, guid: 367979a17b28866459c6e97bf96f10da, type: 3}
+  - {fileID: 21300000, guid: 04427e4206534ac4eaa6e106f8dee143, type: 3}
+  - {fileID: 21300000, guid: 0ad047130b7cbf44aa31c76348899fc2, type: 3}
+  - {fileID: 21300000, guid: 2dea1073d6d551b45ae7271b919c28d2, type: 3}
+  - {fileID: 21300000, guid: ad900bb32d713e44f9dcc0929436a497, type: 3}
+  - {fileID: 21300000, guid: 6bde3365ffffeed40b139dab283fe7a7, type: 3}
+  - {fileID: 21300000, guid: 043fd6d59e5d9854eaf5a67757c01df1, type: 3}
+  - {fileID: 21300000, guid: a9ddd876ee4c956449695bf16198741f, type: 3}
+  - {fileID: 21300000, guid: d4b51b761a602d546be3e97c51f4f9a1, type: 3}
+  - {fileID: 21300000, guid: 37cc6f183230432448f3f520cd44f31f, type: 3}
+  - {fileID: 21300000, guid: 59ab2bf8b22da8945b6ef9c7c64ec040, type: 3}
+  - {fileID: 21300000, guid: c929ee19334321447ada166e8fe5c68a, type: 3}
+  - {fileID: 21300000, guid: 2fe713d91124b444da7eb1ed1622c1af, type: 3}
+  - {fileID: 21300000, guid: a28ef93a9e721804293bffdea9a0cc29, type: 3}
+  - {fileID: 21300000, guid: b8dbf7fc4e8bd33438e9f4845532b26a, type: 3}
+  - {fileID: 21300000, guid: 2f2b301eafde3f34fafb87a27dc11edb, type: 3}
+  - {fileID: 21300000, guid: e092874fbc5303540be4a32525c5344c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - PavingMosaic (4)
+  - PavingStone (3)
+  - violet_wall (3)
+  - PavingStone (1)
+  - violet_wall (5)
+  - PavingMosaic (5)
+  - violet_wall (6)
+  - PavingStone (5)
+  - PavingStone (2)
+  - PavingMosaic (2)
+  - PavingStone (4)
+  - violet_wall (1)
+  - PavingMosaic (3)
+  - violet_wall (2)
+  - violet_wall (4)
+  - PavingStone (6)
+  - PavingMosaic (1)
+  - violet_wall (7)
+  - PavingMosaic (6)
+  m_Tag: tiles_atlas
+  m_IsVariant: 0

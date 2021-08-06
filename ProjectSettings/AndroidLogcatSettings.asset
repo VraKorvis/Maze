@@ -1,0 +1,117 @@
+{
+    "m_SelectedDeviceId": "",
+    "m_SelectedPackage": {
+<<<<<<< HEAD
+        "deviceId": "3be99b9a",
+        "name": "com.corbi.soulmaze",
+        "processId": 4083,
+        "exited": true
+    },
+    "m_SelectedPriority": 0,
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "3be99b9a",
+            "name": "com.corbi.soulmaze",
+            "processId": 4083,
+            "exited": true
+        },
+        {
+            "deviceId": "3be99b9a",
+            "name": "com.miui.home",
+            "processId": 15133,
+            "exited": false
+        },
+        {
+            "deviceId": "3be99b9a",
+            "name": "com.corbi.soulmaze",
+            "processId": 8105,
+            "exited": true
+        },
+        {
+            "deviceId": "3be99b9a",
+            "name": "org.telegram.messenger",
+            "processId": 4604,
+            "exited": true
+        },
+        {
+            "deviceId": "3be99b9a",
+            "name": "com.corbi.soulmaze",
+            "processId": 7484,
+            "exited": true
+        },
+        {
+            "deviceId": "3be99b9a",
+            "name": "com.corbi.soulmaze",
+            "processId": 17266,
+            "exited": true
+        },
+        {
+            "deviceId": "3be99b9a",
+            "name": "org.telegram.messenger",
+            "processId": 17136,
+            "exited": false
+        }
+    ],
+=======
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
+        "exited": false
+    },
+    "m_SelectedPriority": 0,
+    "m_KnownPackagesForSerialization": [],
+>>>>>>> parent of 065bcaf (switch to standalone)
+    "m_Tags": {
+        "m_Entries": [
+            {
+                "m_Name": "Filter by all listed tags",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "No Filter",
+                "m_Selected": true
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Tag Control...",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Unity",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "CRASH",
+                "m_Selected": false
+            }
+        ]
+    },
+    "m_MemoryViewerState": {
+        "MemoryWindowHeight": 266.0,
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "MemoryGroup": 1,
+        "Behavior": 1
+    },
+    "m_Filter": "",
+    "m_FilterIsRegularExpression": false,
+    "m_SymbolPaths": []
+}
